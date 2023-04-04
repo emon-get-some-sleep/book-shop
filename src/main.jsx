@@ -4,12 +4,21 @@ import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
+import About2 from './components/About2'
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
         children: [
+            {
+                path: '/',
+                element: <Home></Home>
+            },
+            {
+                path: 'about',
+                element: <About2></About2>
+            },
             {
                 path: '/',
                 element: <Home></Home>
