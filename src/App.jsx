@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className='App'>
-      <h1>Welcome to nextPage!</h1>
+      <h1 className="text-2xl">Welcome to nextPage!</h1>
     </div>
   )
 }
